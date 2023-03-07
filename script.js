@@ -43,7 +43,7 @@ alert(alertMessage);
   //Getting the user input and assigning them to variables
 
  
-  // querySelector methodallows me to select an HTML element from a webpage using a CSS selector. The .textContent sets the content of the selected element (Your favorite color is: ; etc)
+  // querySelector method allows me to select an HTML element from a webpage using a CSS selector. The .textContent sets the content of the selected element (Your favorite color is: ; etc)
 document.querySelector('.response-color-1').textContent = "Your favorite color is: " + userColor;
 document.querySelector('.response-color-2').textContent = "Your favorite food is: " + userFood;
 document.querySelector('.response-color-3').textContent = "Your favorite vacation spot is: " + userVacation;

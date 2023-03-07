@@ -20,7 +20,7 @@ body {
   }
   
   /* Style the paragraphs with random colors from a predefined list - this will take a lot longer than I have right now so I will just set them for the time being. */
-  .random-color-1 {
+  .random-color-1, .response-color-1 {
     background-color: #FF5733; /* orange */
     color: white;
     display: block;
@@ -28,7 +28,7 @@ body {
     width: 35%;
   }
   
-  .random-color-2 {
+  .random-color-2, .response-color-2 {
     background-color: #C70039; /* red */
     color: white;
     display: block;
@@ -36,7 +36,7 @@ body {
     width: 35%;
   }
   
-  .random-color-3 {
+  .random-color-3, .response-color-3 {
     background-color: #FFC300; /* yellow */
     color: white;
     display: block;
@@ -44,7 +44,7 @@ body {
     width: 35%;
   }
   
-  .random-color-4 {
+  .random-color-4, .response-color-4 {
     background-color: #0074D9; /* blue */
     color: white;
     display: block;
@@ -53,7 +53,7 @@ body {
   }
   
   /* Set the random color class but not used at the moment */
-  .random-color-5 {
+  /* .random-color-5 {
     background-color: #2ECC40; /* green */
     color: white;
     display: block;
@@ -67,7 +67,7 @@ body {
     display: block;
     margin-bottom: 20px;
     width: 35%;
-  }
+  } */
   /* I got tired of this not showing up right and this is what internet said to do */
   pre {
     color: white !important;
@@ -81,7 +81,7 @@ body {
     width: 35%;
   }
   
-  .response-color-1 {
+  /* .response-color-1 {
     background-color: orange; 
     color: white;
     display: block;
@@ -110,6 +110,6 @@ body {
     display: block;
     margin-bottom: 20px;
     width: 35%;
-  }
+  } */
   
   
