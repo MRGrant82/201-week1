@@ -1,0 +1,48 @@
+/* Set the background color of the page */
+body {
+    background-color: black;
+  }
+  
+  /* Style the main heading with white text */
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em; /* 3em means it's 3x the size of the standard pixle */
+  }
+  
+  /* Style the paragraphs with random colors from a predefined list - this will take a lot longer than I have right now so I will just set them for the time being. */
+  .random-color-1 {
+    background-color: #FF5733; /* orange */
+    color: white;
+  }
+  
+  .random-color-2 {
+    background-color: #C70039; /* red */
+    color: white;
+  }
+  
+  .random-color-3 {
+    background-color: #FFC300; /* yellow */
+    color: white;
+  }
+  
+  .random-color-4 {
+    background-color: #0074D9; /* blue */
+    color: white;
+  }
+  
+  /* Set the random color class */
+  .random-color-5 {
+    background-color: #2ECC40; /* green */
+    color: white;
+  }
+  
+  .random-color-6 {
+    background-color: #9B59B6; /* purple */
+    color: white;
+  }
+  /* I got tired of this not showing up right and this is what internet said to do */
+  pre {
+    color: white !important;
+  }
+  
