@@ -52,22 +52,6 @@ body {
     width: 35%;
   }
   
-  /* Set the random color class but not used at the moment */
-  /* .random-color-5 {
-    background-color: #2ECC40; /* green */
-    color: white;
-    display: block;
-    margin-bottom: 20px;
-    width: 35%;
-  }
-  
-  .random-color-6 {
-    background-color: #9B59B6; /* purple */
-    color: white;
-    display: block;
-    margin-bottom: 20px;
-    width: 35%;
-  } */
   /* I got tired of this not showing up right and this is what internet said to do */
   pre {
     color: white !important;
