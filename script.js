@@ -31,11 +31,24 @@ let alertMessage = "Your favorite color is " + userColor + ", your favorite food
 alert(alertMessage);
 
 // I want to try to get every color to be random each time 
-const randomColor = () => {
-    return Math.floor(Math.random() * 256);
-  }
+// const randomColor = () => {
+//   return Math.floor(Math.random() * 256);
+// }
   
-  const element = document.querySelector('.random-color');
-  element.style.backgroundColor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
+  // const element = document.querySelector('.randomColor');
+  // element.style.backgroundColor = `rgb(${randomColor()}, ${randomColor()}, ${randomColor()})`;
+
+  // I want to also display the answers on the page next to the questions
+
+  //Getting the user input and assigning them to variables
+
+ 
+  
+document.querySelector('.response-color-1').textContent = "Your favorite color is: " + userColor;
+document.querySelector('.response-color-2').textContent = "Your favorite food is: " + userFood;
+document.querySelector('.response-color-3').textContent = "Your favorite vacation spot is: " + userVacation;
+document.querySelector('.response-color-4').textContent = "Your favorite hobby is: " + userHobby;
+
+
   
 

@@ -12,7 +12,7 @@
       <h1>Godzilla ASCII Art</h1>
     </header>
     <main>
-    <pre>
+      <pre> <!--This is pre-formatted text, how I can input ASCII pictures -->
                ⣠⣴⣶⣦⣄⡄⢀⠀⡀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
             ⠀⠀⠀⢸⣿a⣿⣿⣿⣿⣿⣿⣾⣧⣾⣇⣰⡼⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
             ⠀⠀⠀⠈⢹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣠⣾⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -31,20 +31,29 @@
                 ⠈⠛⢿⣿⣿⣿⣶⣦⣤⣴⣄⣠⣀⣀⣀⣀⣤⣴⣾⣿⣿a⣿⣿⡿⠁
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⠻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠏⠁⠀
             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠛⠿⠿⠿⠿⠿⠿⠿⠛⠋⠁⠀⠀
-    </pre>
-
-      <!-- Display the questions with random colors -->
-    <p class="random-color-1">What is your favorite color?</p>
-    <p class="random-color-2">What is your favorite food?</p>
-    <p class="random-color-3">Where is your favorite vacation spot?</p>
-    <p class="random-color-4">What is your favorite hobby?</p>
+      </pre>
+      <div class="container">
+        <div class="questions">
+          <p class="random-color-1">What is your favorite color?</p>
+          <p class="random-color-2">What is your favorite food?</p>
+          <p class="random-color-3">Where is your favorite vacation spot?</p>
+          <p class="random-color-4">What is your favorite hobby?</p>
+        </div>
+        <div class="responses">
+          <p class="response-color-1"></p>
+          <p class="response-color-2"></p>
+          <p class="response-color-3"></p>
+          <p class="response-color-4"></p>
+        </div>
+      </div>
+      
 
     </main>
     <footer>
       <!-- Display a message in the footer -->
       <p>&copy; 2023 Godzilla Corporation Roar</p>
     </footer>
-    <!-- Include the JavaScript file -->
+    <!-- Include the JavaScript file - I read that putting it at the end of main or in the footer helps with speeding up loading times-->
     <script src="script.js"></script>
   </body>
 </html>
